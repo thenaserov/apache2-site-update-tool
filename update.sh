@@ -1,11 +1,11 @@
 #!/bin/bash
 
-cp online-tshirt-website/index.html ../
-cp online-tshirt-website/404.html ../
-cp online-tshirt-website/product.html ../
-cp online-tshirt-website/search.html ../
+sudo cp online-tshirt-website/index.html ../
+sudo cp online-tshirt-website/404.html ../
+sudo cp online-tshirt-website/product.html ../
+sudo cp online-tshirt-website/search.html ../
 
-cp -R online-tshirt-website/css/ ../
-cp -R online-tshirt-website/img/ ../
-cp -R online-tshirt-website/js/ ../
-cp -R online-tshirt-website/tools/ ../
+sudo cp -R online-tshirt-website/css/ ../
+sudo cp -R online-tshirt-website/img/ ../
+sudo cp -R online-tshirt-website/js/ ../
+sudo cp -R online-tshirt-website/tools/ ../
