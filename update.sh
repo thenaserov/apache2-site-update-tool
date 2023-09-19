@@ -1,14 +1,14 @@
 #!/bin/bash
 
-sudo rm -rf css
-sudo rm -rf img
-sudo rm -rf js
-sudo rm -rf tools
+sudo rm -rf /var/www/html/css
+sudo rm -rf /var/www/html/img
+sudo rm -rf /var/www/html/js
+sudo rm -rf /var/www/html/tools
 
-sudo rm index.html
-sudo rm product.html
-sudo rm search.html
-sudo rm 404.html
+sudo rm /var/www/html/index.html
+sudo rm /var/www/html/product.html
+sudo rm /var/www/html/search.html
+sudo rm /var/www/html/404.html
 
 
 sudo cp online-tshirt-website/index.html ../
